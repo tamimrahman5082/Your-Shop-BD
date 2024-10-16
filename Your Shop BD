@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Your Shop BD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            padding: 1rem;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .hero {
+            background-color: #ffcc00;
+            padding: 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .category {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+        .category div {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            width: 30%;
+            text-align: center;
+            margin: 1rem 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Shop BD</h1>
+        <p>Your one-stop shop for everything!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to Your Shop BD!</h1>
+        <p>Explore a wide variety of products across multiple categories.</p>
+    </section>
+
+    <div class="container">
+        <section id="products" class="category">
+            <div>
+                <h2>Electronics</h2>
+                <p>Latest gadgets and devices</p>
+            </div>
+            <div>
+                <h2>Clothing</h2>
+                <p>Trendy outfits for all seasons</p>
+            </div>
+            <div>
+                <h2>Groceries</h2>
+                <p>Fresh and daily essentials</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Contact us at info@yourshopbd.com | Call us: (123) 456-7890</p>
+        <p>&copy; 2024 Your Shop BD. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
